@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('/fonts/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.list-marker-space {
+    list-style-position: outside;
+    padding-left: 1rem; /* Adjust the spacing as needed */
+  }
+  
+  .list-marker-space li {
+    text-indent: -1rem; /* Negative indent to pull text back */
+  }
